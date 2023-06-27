@@ -1,3 +1,4 @@
 node_modules/*
 coverage/*
 .techtrain/config.toml
+.DS_Store
