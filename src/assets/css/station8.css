@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+  background-color: #C4C4C4;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  width: 288px;
+  height: 292px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+.card__title {
+  color: #282828;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.card__description {
+  color: #282828;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+img {
+  width: 288px;
+  height: 182px;
+  margin-bottom: 5px;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+header {
+  background-color: #fff;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+footer {
+  background-color: #fff;
+  height: 50px;
+  margin-top: 50px;
+}
